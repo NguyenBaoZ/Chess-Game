@@ -8,7 +8,7 @@ Nền tảng phát triển: JavaFX Application
 
 Ngôn ngữ: Java – Hệ quản trị cơ sở dữ liệu: MongoDB
 
-# Sơ lược đồ án:
+# Sơ lược đồ án
 
 Cờ vua là 1 trò chơi lâu đời, có tính giải trí, rèn luyện tư duy tốt. Vì vậy khi chơi cờ vua người ta vừa tập luyện được sự tập trung suy nghĩ, vừa học hỏi thêm được cách xử lí đối phó với các ván cờ cũng như trong cuộc sống. Chính vì điều này nên chúng em quyết định tạo nên trò chơi cờ vua để mọi người có thể giải trí sau những giờ làm việc căng thẳng, cũng như nâng cao trình độ để so tài với bạn bè. Đồ án sẽ có các chức năng cơ bản như là đấu giữa người với máy, đấu người với người, chế độ hướng dẫn dành cho người mới. Trong mỗi chức năng sẽ có hình thức cách tính diểm để người chơi có thể so sánh với nhau trên bảng xếp hạng. Ngoài ra khi đánh với máy ở mức độ cao sẽ nhận được điểm cao hơn.
 
