@@ -41,7 +41,7 @@ public class Pawn extends Piece {
         Coordinate firstStep = this.goForward(1);
         if (BoardUtils.getInstance().isValidCoordinate(firstStep) && board.getTile(firstStep) != null && board.getTile(firstStep).isEmpty()) {
             allMoves = addNormalMoves(board, firstStep);
-            // here we know that position inbetween jump is empty
+            // here we know that position in between jump is empty
             Coordinate secondStep = this.goForward(2);
             if (this.isFirstMove() && board.getTile(secondStep) != null && board.getTile(secondStep).isEmpty()) {
                 allMoves.addAll(addNormalMoves(board, secondStep));
@@ -144,7 +144,7 @@ public class Pawn extends Piece {
 
     @Override
     public Pawn movePiece(Move move) {
-        return new Pawn(move.getDestinationCoordinate(), move.getMovedPiece().getPieceAlliance());
+        return new Pawn(move.getDestinationCoordinate(), move.getMovedPiece().getPieceAlliance(),false);
     }
 
     @Override

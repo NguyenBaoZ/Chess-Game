@@ -1,61 +1,60 @@
-gui/panes/TakenPiecesPane.java
- gui.panes.TakenPiecesPane
-player/basicAI/BoardEvaluator.java
- player.basicAI.BoardEvaluator
-pieces/Queen.java
- pieces.Queen
-board/GameMode.java
- board.GameMode
-gui/windows/PromotionWindow.java
- gui.windows.PromotionWindow
-gui/GameStateManager.java
- gui.GameStateManager
-pieces/Bishop.java
- pieces.Bishop
-pieces/Rook.java
- pieces.Rook
 Main.java
  Main
 player/Score.java
  player.Score
  player.Score$Stats
-player/basicAI/MiniMax.java
- player.basicAI.MiniMax
-player/Player.java
- player.Player
-player/MoveTransition.java
- player.MoveTransition
 gui/extra/CircleAnimation.java
  gui.extra.CircleAnimation
-board/Board.java
- board.Board
- board.Board$Builder
+board/GameMode.java
+ board.GameMode
+gui/windows/ScoreWindow.java
+ gui.windows.ScoreWindow
+gui/windows/RuleWindow.java
+ gui.windows.RuleWindow
+board/Coordinate.java
+ board.Coordinate
+gui/extra/InformationToggle.java
+ gui.extra.InformationToggle
+gui/panes/TakenPiecesPane.java
+ gui.panes.TakenPiecesPane
+gui/panes/StatusPane.java
+ gui.panes.StatusPane
+gui/panes/GameOverPane.java
+ gui.panes.GameOverPane
+gui/windows/PromotionWindow.java
+ gui.windows.PromotionWindow
 gui/ChessGame.java
  gui.ChessGame
  gui.ChessGame$1
  gui.ChessGame$2
  gui.ChessGame$ChessTile
+gui/extra/GameMenu.java
+ gui.extra.GameMenu
+gui/panes/InfoPane.java
+ gui.panes.InfoPane
+gui/scenes/StartMenuScene.java
+ gui.scenes.StartMenuScene
 player/basicAI/RegularBoardEvaluator.java
  player.basicAI.RegularBoardEvaluator
 pieces/Piece.java
  pieces.Piece
  pieces.Piece$PieceType
+player/basicAI/BoardEvaluator.java
+ player.basicAI.BoardEvaluator
+pieces/Queen.java
+ pieces.Queen
 board/Tile.java
  board.Tile
  board.Tile$EmptyTile
  board.Tile$OccupiedTile
-gui/scenes/StartMenuScene.java
- gui.scenes.StartMenuScene
-gui/panes/InfoPane.java
- gui.panes.InfoPane
+gui/GameStateManager.java
+ gui.GameStateManager
 pieces/Pawn.java
  pieces.Pawn
 pieces/Alliance.java
  pieces.Alliance
  pieces.Alliance$1
  pieces.Alliance$2
-gui/extra/GameMenu.java
- gui.extra.GameMenu
 board/Move.java
  board.Move
  board.Move$1
@@ -76,26 +75,27 @@ board/Move.java
  board.Move$PawnMove
  board.Move$PawnPromotion
  board.Move$QueenSideCastleMove
+pieces/Bishop.java
+ pieces.Bishop
+pieces/Rook.java
+ pieces.Rook
 board/BoardUtils.java
  board.BoardUtils
 pieces/King.java
  pieces.King
+player/basicAI/MiniMax.java
+ player.basicAI.MiniMax
+player/Player.java
+ player.Player
 pieces/Knight.java
  pieces.Knight
-board/Coordinate.java
- board.Coordinate
-gui/windows/ScoreWindow.java
- gui.windows.ScoreWindow
 gui/extra/MoveDescription.java
  gui.extra.MoveDescription
-gui/extra/InformationToggle.java
- gui.extra.InformationToggle
-gui/panes/GameOverPane.java
- gui.panes.GameOverPane
-gui/windows/RuleWindow.java
- gui.windows.RuleWindow
-gui/panes/StatusPane.java
- gui.panes.StatusPane
+player/MoveTransition.java
+ player.MoveTransition
+board/Board.java
+ board.Board
+ board.Board$Builder
 player/basicAI/MoveStrategy.java
  player.basicAI.MoveStrategy
 gui/extra/ResourceLoader.java

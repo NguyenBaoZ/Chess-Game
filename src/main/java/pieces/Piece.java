@@ -125,6 +125,7 @@ public abstract class Piece {
         return this.isFirstMove;
     }
 
+
     @Override
     public boolean equals(Object o) {
         if (this == o) return true;
