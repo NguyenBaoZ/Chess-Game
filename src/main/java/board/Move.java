@@ -348,10 +348,6 @@ public abstract class Move {
             this.castleRookDestination = castleRookDestination;
         }
 
-        public Rook getCastleRook() {
-            return castleRook;
-        }
-
         @Override
         public boolean isCastlingMove() {
             return true;
