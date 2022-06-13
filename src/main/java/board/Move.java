@@ -115,21 +115,6 @@ public abstract class Move {
         return this.board;
     }
 
-    /**
-     * This helps differentiate equal pieces that may be moving to the same position
-     * @return column index
-     * @see <a href="https://en.wikipedia.org/wiki/Portable_Game_Notation">Disambiguation</a>
-     */
-    String disambiguationColumn() {
-        for (Move move : board.currentPlayer().getLegalMoves()) {
-            if (move.getDestinationCoordinate().equals(this.destinationCoordinate) && !this.equals(move) &&
-                this.movedPiece.getPieceType().equals(move.getMovedPiece().getPieceType())) {
-                return BoardUtils.getInstance().getAlgebraicNotationFromCoordinate(this.movedPiece.getPieceCoordinate()).substring(0, 1);
-            }
-        }
-        return "";
-    }
-
     @Override
     public String toString() {
         return BoardUtils.getInstance().getAlgebraicNotationFromCoordinate(destinationCoordinate);
@@ -213,7 +198,7 @@ public abstract class Move {
 
         @Override
         public String toString() {
-            return movedPiece.getPieceType() + disambiguationColumn() + BoardUtils.getInstance().getAlgebraicNotationFromCoordinate(destinationCoordinate);
+            return movedPiece.getPieceType() + BoardUtils.getInstance().getAlgebraicNotationFromCoordinate(destinationCoordinate);
         }
     }
 
@@ -516,7 +501,7 @@ public abstract class Move {
 
         @Override
         public String toString() {
-            return movedPiece.getPieceType() + disambiguationColumn() + "x" + BoardUtils.getInstance().getAlgebraicNotationFromCoordinate(this.destinationCoordinate);
+            return movedPiece.getPieceType() + "x" + BoardUtils.getInstance().getAlgebraicNotationFromCoordinate(this.destinationCoordinate);
         }
     }
 
